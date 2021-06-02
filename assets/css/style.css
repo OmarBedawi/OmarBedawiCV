@@ -401,13 +401,27 @@ button[type="submit"]{
     }
 }
 
+@media (max-width: 500px) {
+    .sm {
+        color: red;
+        font-weight: bold;
+    }
+    .projects {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .milestone {
+        margin-bottom: 30px;
+    }
+}
+
 @media (min-width: 500px) and (max-width:768px) {
     .sm {
         color: red;
         font-weight: bold;
     }
     .projects {
-        width: 170%;
         margin-left: 0px;
         margin-top: 25px;
     }
