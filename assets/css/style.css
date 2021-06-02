@@ -378,7 +378,7 @@ footer {
 
 
 .portfolio-section{
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 /*--------------------------------------------Media Queries*/
@@ -395,6 +395,10 @@ footer {
 
     .milestone {
         margin-bottom: 30px;
+    }
+
+    .portfolio-section{
+        margin-top: 20px;
     }
 }
 
