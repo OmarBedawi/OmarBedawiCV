@@ -312,6 +312,10 @@ footer {
     margin: 40px 20px;
 }
 
+.jinja_bar{
+    background-color: #ff7400;
+}
+
 
 /*--------------------------------------------work history*/
 
@@ -381,6 +385,15 @@ footer {
     margin-top: 90px;
 }
 
+.project_img{
+    float: left;
+    border: 1px black solid;
+    width: 140px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
 /*--------------------------------------------Media Queries*/
 
 @media (max-width: 500px) {
@@ -414,5 +427,32 @@ footer {
 
     .milestone {
         margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .lg {
+        color: red;
+        font-weight: bold;
+    }
+
+    .project_img{
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .md {
+        color: red;
+        font-weight: bold;
+    }
+
+    .project_img{
+        height: px;
+    }
+
+    .milestone{
+        margin-top: 0px;
     }
 }
